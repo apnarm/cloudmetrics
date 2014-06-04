@@ -1,5 +1,5 @@
-cloudmetrics
-============
+cloudmetrics 0.0.1
+==================
 
 A Python library for sending metrics to CloudWatch.
 
@@ -100,7 +100,7 @@ Example usage:
 Buffering
 ---------
 
-Metric backends can support buffering, to publish
+Metrics backends can support buffering, to publish
 multiple metric data points with a single request.
 Buffering works within the context of a namespace.
 
